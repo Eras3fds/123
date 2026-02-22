@@ -1,6 +1,3 @@
 @echo off
-if "%1"=="" (
-    start /min "" cmd /c "%~f0" hidden
-    exit
-)
-calc
+echo Hello World > "%~dp0hello.txt"
+start "" notepad "%~dp0hello.txt"
